@@ -10,9 +10,9 @@
 
   <genericsetup:registerProfile
     name="default"
-    title="Digital China Theme Package"
+    title="DGCN Theme"
     directory="profiles/default"
-    description="DigiChina Theme Package Extension Profile"
+    description="DigiChina Theme Extension Profile"
     provides="Products.GenericSetup.interfaces.EXTENSION" />
 
   <plone:static
