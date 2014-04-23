@@ -6,6 +6,7 @@
   xmlns:plone="http://namespaces.plone.org/plone"
   i18n_domain="dgcn.theme">
 
+  <include package=".browser" />
   <i18n:registerTranslations directory="locales" />
 
   <genericsetup:registerProfile
@@ -22,5 +23,9 @@
   <browser:jbot
     directory="overrides"
     layer=".interfaces.ICustomTheme" />
+
+  <browser:resourceDirectory
+    name="dgcn.theme"
+    directory="resources/static" />
 
 </configure>

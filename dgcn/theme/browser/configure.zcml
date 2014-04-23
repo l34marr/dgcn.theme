@@ -1,0 +1,13 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="dgcn.theme">
+
+  <browser:page
+    for="*"
+    name="homepage"
+    class=".view.HomePage"
+    template="homepage.pt"
+    permission="zope2.View" />
+
+</configure>
