@@ -31,7 +31,6 @@
         <div tal:replace="structure provider:plone.htmlhead" />
         <link tal:replace="structure provider:plone.htmlhead.links" />
         <link media="screen" rel="stylesheet" type="text/css" href="++resource++dgcn.theme/masonry.css" />
-        <!-- link media="screen" rel="stylesheet" type="text/css" href="++resource++dgcn.theme/dropdown.css" / -->
 
         <tal:comment replace="nothing">
             Various slots where you can insert elements in the header from a template.
@@ -86,8 +85,11 @@ $(document).ready(function(){
                   sr python:plone_view.have_portlets('plone.rightcolumn', view);
                   body_class python:plone_view.bodyClass(template, view);
                   classes python:context.restrictedTraverse('@@sunburstview').getColumnsClasses(view);
-                  fixed view/fixed_items;
-                  getPeople view/getPeople"
+                  getDress view/getDress;
+                  getBuilding view/getBuilding;
+                  getClothes view/getClothes;
+                  getShip view/getShip;
+                  getRiver view/getRiver"
     tal:attributes="class body_class;
                     dir python:isRTL and 'rtl' or 'ltr'">
 
@@ -108,10 +110,12 @@ $(document).ready(function(){
             <!-- div id="viewlet-above-content" tal:content="structure provider:plone.abovecontent" tal:condition="not:ajax_load" / -->
             <div id="sort-nav">
               <ul>
-              <li class="menu1"><a href="#" data-filter="*" onClick="return false;">All</a></li>
-              <li class="menu2"><a href="#" data-filter=".people">People</a></li>
-              <li class="menu3"><a href="#" data-filter=".event">Event</a></li>
-              <li class="menu4"><a href="#" data-filter=".place">Place</a></li>
+              <li class="menu0"><a href="#" data-filter="*" onClick="return false;">All</a></li>
+              <li class="menu1"><a href="#" data-filter=".dress">Dress</a></li>
+              <li class="menu2"><a href="#" data-filter=".building">Building</a></li>
+              <li class="menu3"><a href="#" data-filter=".clothes">Clothes</a></li>
+              <li class="menu4"><a href="#" data-filter=".ship">Ship</a></li>
+              <li class="menu5"><a href="#" data-filter=".river">River</a></li>
               </ul>
             </div>
             <br />
@@ -130,8 +134,8 @@ $(document).ready(function(){
                             <metal:bodytext define-slot="main">
                               <div id="bcontent">
 
-<div class="box event-color event"
- tal:define="tile python:fixed[0].getObject()">
+<div class="box dress-color dress"
+ tal:define="tile python:getDress[0].getObject()">
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
@@ -143,8 +147,8 @@ $(document).ready(function(){
   <div class="box-info" tal:content="tile/Description">Text</div>
 </div>
 
-<div class="box people-color people"
- tal:define="tile python:fixed[1].getObject()">
+<div class="box building-color building"
+ tal:define="tile python:getBuilding[0].getObject()">
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
@@ -156,8 +160,99 @@ $(document).ready(function(){
   <div class="box-info" tal:content="tile/Description">Text</div>
 </div>
 
-<div class="box place-color place"
- tal:define="tile python:fixed[2].getObject()">
+<div class="box clothes-color clothes"
+ tal:define="tile python:getClothes[0].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box ship-color ship"
+ tal:define="tile python:getShip[0].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box river-color river"
+ tal:define="tile python:getRiver[0].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box dress-color dress"
+ tal:define="tile python:getDress[1].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box building-color building"
+ tal:define="tile python:getBuilding[1].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box clothes-color clothes"
+ tal:define="tile python:getClothes[1].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box ship-color ship"
+ tal:define="tile python:getShip[1].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box river-color river"
+ tal:define="tile python:getRiver[1].getObject()">
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""

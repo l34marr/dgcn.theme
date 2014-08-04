@@ -119,23 +119,23 @@ table {
   margin-top: -7px;
   margin-bottom: 10px;
 }
-.event-color{
-  background-color: #2274a4;
+.dress-color {
+  background-color: IndianRed;
 }
-.people-color{
-  background-color: #8f8463;
+.building-color {
+  background-color: DarkSeaGreen;
 }
-.place-color{
-  background-color: #2e794a;
+.clothes-color {
+  background-color: LightSteelBlue;
 }
-.news-color{
-  background-color: #3b3074;
+.ship-color {
+  background-color: Orange;
 }
-.forum-color{
-  background-color: #da522c;
+.river-color {
+  background-color: MediumPurple;
 }
-.others-color{
-  background-color: #af193f;
+.others-color {
+  background-color: DarkGray;
 }
 #nav {
   /* float: left; */
@@ -224,11 +224,11 @@ table {
 /* sorting menu sticky setting */
 
 #sort-nav {
+  float: right;
   line-height: 17px;
   margin-left: 0;
-  margin-top: 20px;
-  margin-bottom: -15px;
-  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 #sort-nav ul {
   /*display: inline;*/
@@ -251,32 +251,36 @@ table {
   background-color: #f5f5f5;
   color: #222;
 }
-#sort-nav ul li.menu1 a:hover {
+#sort-nav ul li.menu0 a:hover {
   background-color: #bbb;
   color: #fff;
 }
+#sort-nav ul li.menu1 a:hover {
+  background-color: red;
+  color: #fff;
+}
 #sort-nav ul li.menu2 a:hover {
-  background-color: #2274A4;
+  background-color: green;
   color: #fff;
 }
 #sort-nav ul li.menu3 a:hover {
-  background-color: #8f8463;
+  background-color: blue;
   color: #fff;
 }
 #sort-nav ul li.menu4 a:hover {
-  background-color: #2e794a;
+  background-color: orange;
   color: #fff;
 }
 #sort-nav ul li.menu5 a:hover {
-  background-color: #3B3074;
+  background-color: purple;
   color: #fff;
 }
 #sort-nav ul li.menu6 a:hover {
-  background-color: #da522c;
+  background-color: brown;
   color: #fff;
 }
 #sort-nav ul li.menu7 a:hover {
-  background-color: #af193f;
+  background-color: grey;
   color: #fff;
 }
 .sticky #sort-nav {

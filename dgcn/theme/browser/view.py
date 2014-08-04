@@ -12,28 +12,75 @@ class HomePage(BrowserView):
 
     implements(ICustomTheme)
 
-    def getPeople(self):
-        """Get Photos on People
+    def getDress(self):
+        """Get Photos on Dress
         """
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
         path = portal_state.navigation_root_path() + '/photos'
         return catalog(portal_type='Photo',
+                       Subject=('dress'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='ascending',
                        sort_limit=9)[:9]
 
-    def fixed_items(self):
-        """Get Items for Fixed-Position Tiles
+    def getBuilding(self):
+        """Get Photos on Building
         """
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
         path = portal_state.navigation_root_path() + '/photos'
         return catalog(portal_type='Photo',
+                       Subject=('building'),
+                       review_state='published',
+                       path=path,
+                       sort_on='getObjPositionInParent',
+                       sort_order='ascending',
+                       sort_limit=9)[:9]
+
+    def getClothes(self):
+        """Get Photos on Clothes
+        """
+        context = aq_inner(self.context)
+        catalog = getToolByName(context, 'portal_catalog')
+        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
+        path = portal_state.navigation_root_path() + '/photos'
+        return catalog(portal_type='Photo',
+                       Subject=('clothes'),
+                       review_state='published',
+                       path=path,
+                       sort_on='getObjPositionInParent',
+                       sort_order='ascending',
+                       sort_limit=9)[:9]
+
+    def getShip(self):
+        """Get Photos on Ship
+        """
+        context = aq_inner(self.context)
+        catalog = getToolByName(context, 'portal_catalog')
+        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
+        path = portal_state.navigation_root_path() + '/photos'
+        return catalog(portal_type='Photo',
+                       Subject=('ship'),
+                       review_state='published',
+                       path=path,
+                       sort_on='getObjPositionInParent',
+                       sort_order='ascending',
+                       sort_limit=9)[:9]
+
+    def getRiver(self):
+        """Get Photos on River
+        """
+        context = aq_inner(self.context)
+        catalog = getToolByName(context, 'portal_catalog')
+        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
+        path = portal_state.navigation_root_path() + '/photos'
+        return catalog(portal_type='Photo',
+                       Subject=('river'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
