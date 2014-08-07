@@ -89,7 +89,8 @@ $(document).ready(function(){
                   getBuilding view/getBuilding;
                   getClothes view/getClothes;
                   getShip view/getShip;
-                  getRiver view/getRiver"
+                  getRiver view/getRiver;
+                  getLighthouse view/getLighthouse"
     tal:attributes="class body_class;
                     dir python:isRTL and 'rtl' or 'ltr'">
 
@@ -116,6 +117,7 @@ $(document).ready(function(){
               <li class="menu3"><a href="#" data-filter=".clothes">Clothes</a></li>
               <li class="menu4"><a href="#" data-filter=".ship">Ship</a></li>
               <li class="menu5"><a href="#" data-filter=".river">River</a></li>
+              <li class="menu6"><a href="#" data-filter=".lighthouse">Lighthouse</a></li>
               </ul>
             </div>
             <br />
@@ -199,6 +201,19 @@ $(document).ready(function(){
   <div class="box-info" tal:content="tile/Description">Text</div>
 </div>
 
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[0].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
 <div class="box dress-color dress"
  tal:define="tile python:getDress[1].getObject()">
   <a href="#"
@@ -253,6 +268,19 @@ $(document).ready(function(){
 
 <div class="box river-color river"
  tal:define="tile python:getRiver[1].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[1].getObject()">
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
