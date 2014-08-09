@@ -292,6 +292,240 @@ $(document).ready(function(){
   <div class="box-info" tal:content="tile/Description">Text</div>
 </div>
 
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[2].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[3].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[4].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[5].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[6].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[7].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[8].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[9].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[10].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[11].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[12].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[13].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[14].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[15].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[16].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[17].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[18].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
+<div class="box lighthouse-color lighthouse"
+ tal:define="tile python:getLighthouse[19].getObject()">
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <img src="#" alt=""
+   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+                   alt string: ;
+                   width string:230" /></a>
+  <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
+  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <div class="box-info" tal:content="tile/Description">Text</div>
+</div>
+
                               </div>
                             </metal:bodytext>
                         </div>

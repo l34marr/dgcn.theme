@@ -94,11 +94,16 @@ class HomePage(BrowserView):
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
         path = portal_state.navigation_root_path() + '/photos'
-        return catalog(portal_type='Photo',
-                       Subject=('lighthouse'),
-                       review_state='published',
-                       path=path,
-                       sort_on='getObjPositionInParent',
-                       sort_order='ascending',
-                       sort_limit=9)[:9]
+        brain = catalog(portal_type='Photo',
+                        Subject=('lighthouse'),
+                        review_state='published',
+                        path=path,
+                        sort_on='getObjPositionInParent',
+                        sort_order='ascending')
+        import random
+        n = random.randint(0,104)
+        if n < 105 - 20:
+            return brain[n:n+20]
+        else:
+            return brain[n:] + brain[:n-20]
 
