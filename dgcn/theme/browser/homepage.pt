@@ -143,7 +143,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -156,7 +156,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -169,7 +169,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -182,7 +182,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -195,7 +195,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -208,7 +208,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -221,7 +221,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -234,7 +234,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -247,7 +247,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -260,7 +260,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -273,7 +273,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -286,7 +286,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -299,7 +299,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -312,7 +312,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -325,7 +325,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -338,7 +338,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -351,7 +351,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -364,7 +364,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -377,7 +377,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -390,7 +390,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -403,7 +403,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -416,7 +416,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -429,7 +429,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -442,7 +442,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -455,7 +455,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -468,7 +468,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -481,7 +481,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -494,7 +494,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -507,7 +507,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -520,7 +520,7 @@ $(document).ready(function(){
   <img src="#" alt=""
    tal:attributes="src string:${tile/absolute_url}/@@download/image;
                    alt string: ;
-                   width string:230" /></a>
+                   width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
   <h2 class="box-title" tal:content="tile/Title">Title</h2>
   <div class="box-info" tal:content="tile/Description">Text</div>
@@ -542,16 +542,6 @@ $(document).ready(function(){
         </div>
 
         <tal:notajax tal:condition="not:ajax_load">
-        <div id="portal-column-one"
-            class="cell width-1:4 position-0"
-            metal:define-slot="column_one_slot"
-            tal:condition="sl"
-            tal:attributes="class classes/one">
-            <metal:portlets define-slot="portlets_one_slot">
-                <tal:block replace="structure provider:plone.leftcolumn" />
-            </metal:portlets>
-        </div>
-
         <div id="portal-column-two"
             class="cell width-1:4 position-3:4"
             metal:define-slot="column_two_slot"
