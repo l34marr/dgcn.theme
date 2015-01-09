@@ -75,7 +75,7 @@
                     i18n:translate=""
                     tal:condition="sj">
                     Search results for Tag:
-                    <strong id="subject-list" tal:content="sj" i18n:name="tag">
+                    <strong id="subject-list" tal:content="python: sj[0]" i18n:name="tag">
                         Subject List
                     </strong>
                 </h1>
