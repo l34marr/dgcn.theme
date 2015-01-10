@@ -3,6 +3,14 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   i18n_domain="dgcn.theme">
 
+  <browser:viewlet
+    name="plone.global_sections"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class="plone.app.layout.viewlets.common.GlobalSectionsViewlet"
+    template="sections.pt"
+    permission="zope2.View"
+    layer="dgcn.theme.interfaces.ICustomTheme" />
+
   <browser:page
     for="*"
     name="homepage"
