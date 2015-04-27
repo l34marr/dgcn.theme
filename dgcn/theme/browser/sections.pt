@@ -1,18 +1,28 @@
 <tal:sections i18n:domain="dgcn.theme"
  tal:define="root context/@@plone_portal_state/navigation_root_url">
 <p class="hiddenStructure" i18n:translate="heading_sections">Navigation</p>
-
-<ul id="portal-globalnav">
-  <li>
-  <a href=""
-   tal:attributes="href string:${root};
-                   title string:Home;">
-   Home</a>
-  </li>
-  <li>
-  <a href=""
-   tal:attributes="href string:${root}/photos">
-   Photos</a>
-  </li>
-</ul>
+<div class="top-banner">
+ <nav class="">
+  <div class="site-logo">
+   <a href=""
+    tal:attributes="href string:${root}">
+    <img src=""
+     tal:attributes="src string:${root}/++resource++dgcn.theme/logo.png;
+                     alt string:Logo; width string:288" />
+   </a>
+  </div>
+  <ul>
+   <li>
+    <a href="#"
+     tal:attributes="href string:${root}/photos">
+     Photos</a>
+   </li>
+   <li>
+    <a href="#"
+     tal:attributes="href string:${root}/@@map-view">
+     Map</a>
+   </li>
+  </ul>
+ </nav>
+</div>
 </tal:sections>
