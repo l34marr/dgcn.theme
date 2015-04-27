@@ -24,7 +24,7 @@ class HomePage(BrowserView):
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
-                       sort_order='ascending',
+                       sort_order='descending',
                        sort_limit=9)[:9]
 
     def getBuilding(self):
@@ -39,7 +39,7 @@ class HomePage(BrowserView):
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
-                       sort_order='ascending',
+                       sort_order='descending',
                        sort_limit=9)[:9]
 
     def getClothes(self):
@@ -54,7 +54,7 @@ class HomePage(BrowserView):
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
-                       sort_order='ascending',
+                       sort_order='descending',
                        sort_limit=9)[:9]
 
     def getShip(self):
@@ -69,7 +69,7 @@ class HomePage(BrowserView):
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
-                       sort_order='ascending',
+                       sort_order='descending',
                        sort_limit=9)[:9]
 
     def getRiver(self):
@@ -84,7 +84,7 @@ class HomePage(BrowserView):
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
-                       sort_order='ascending',
+                       sort_order='descending',
                        sort_limit=9)[:9]
 
     def getLighthouse(self):
@@ -99,7 +99,7 @@ class HomePage(BrowserView):
                         review_state='published',
                         path=path,
                         sort_on='getObjPositionInParent',
-                        sort_order='ascending')
+                        sort_order='descending')
         import random
         n = random.randint(0,104)
         if n < 105 - 20:
