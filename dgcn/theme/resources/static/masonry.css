@@ -24,7 +24,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /* Isotope filtering */
 
 .isotope-item {
@@ -47,54 +46,67 @@ table {
 }
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property:    -moz-transform, opacity;
-  transition-property:         transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
 }
-
 /* STYLES */
 
 #bcontent {
   /* width: 960px; */
   /*margin: 0 160px;  0 auto */
-  margin-left: -16px;
+  margin-left: -10px;
   margin-top: 1em;
   z-index: 1;
 }
 .box {
   background: #ffffff;
   color: #212121;
-  width: 400px;
+  border: 1px #fff solid;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 210px;
   float: left;
-  margin-bottom: 12px;
-  margin-left: 12px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.box img {
+  height: auto;
+  width: 210px;
+}
+.box :hover {
+  color: #329fd7;
+}
+.box img:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease-out 0s;
 }
 .box-date {
-  color: #fff;
-  font-family: "Open Sans","微軟正黑體",sans-serif;
-  font-size: 12px;
+  color: #666;
+  font-size: 15px;
   margin-top: 5px;
   padding-top: 0;
   padding-left: 10px;
-  padding-right: 10px;	
+  padding-right: 10px;
 }
 .box-title {
-  color: #fff;
-  font-family: "Open Sans","微軟正黑體",sans-serif;
-  font-size: 15px;
+  color: #222;
+  font-family: "Open Sans", "微軟正黑體", sans-serif;
+  font-size: 1em;
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 6px;
   padding-left: 10px;
   padding-right: 10px;
+  letter-spacing: 0.02em;
 }
 .box-info {
-  color: #fff;
-  font-family: "Open Sans","微軟正黑體",sans-serif;
-  font-size: 14px;
-  line-height: 18px;
+  color: #222;
+  font-family: "Open Sans", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 1.8em;
   margin-top: 0px;
   padding-left: 10px;
-  padding-right: 10px;	
+  padding-right: 10px;
   padding-bottom: 10px;
 }
 .box-more {
@@ -111,34 +123,40 @@ table {
   margin-bottom: 7px;
   width: auto;
 }
-
 .eng-info {
   color: #666;
-  font-family: "Open Sans","微軟正黑體",sans-serif;
+  font-family: "Open Sans", "微軟正黑體", sans-serif;
   font-size: 12px;
   margin-top: -7px;
   margin-bottom: 10px;
 }
 .dress-color {
-  background-color: IndianRed;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .building-color {
-  background-color: DarkSeaGreen;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .clothes-color {
-  background-color: LightSteelBlue;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .ship-color {
-  background-color: Orange;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .river-color {
-  background-color: MediumPurple;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .lighthouse-color {
-  background-color: RosyBrown;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 .others-color {
-  background-color: DarkGray;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
 }
 #nav {
   /* float: left; */
@@ -166,7 +184,6 @@ table {
 #nav ul li {
   display: inline;
 }
-
 #newsbox {
   background-color: #fafafa;
   display: block;
@@ -223,67 +240,70 @@ table {
   padding-bottom: 10px;
   border-bottom: 1px #ddd dotted;
 }
-
 /* sorting menu sticky setting */
 
 #sort-nav {
-  float: right;
-  line-height: 17px;
-  margin-left: 0;
-  margin-top: 10px;
+  float: left;
+  line-height: 23px;
   margin-bottom: 15px;
+  margin-left: 38px;
+  margin-top: 10px;
 }
 #sort-nav ul {
-  /*display: inline;*/
+/*display: inline;*/
   /*margin-bottom: 20px;*/
 }
 #sort-nav ul li a {
   display: inline-block;
-  font-family: "Open Sans","微軟正黑體",sans-serif;
+  font-family: "Open Sans", "微軟正黑體", sans-serif;
   font-size: 13px;
-  background-color: #eee;
-  color: #444;
+  background-color: #e3e3e3;
+  color: #000;
   margin-right: 0;
   margin-bottom: 4px;
-  padding: 5px 8px 5px 8px;
+  padding: 8px 12px 8px 12px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   behavior: url(../PIE.htc);
 }
 #sort-nav ul li a:hover {
   background-color: #f5f5f5;
   color: #222;
 }
+#sort-nav ul li a:focus {
+  background-color: #205c90;
+  color: #fff;
+}
 #sort-nav ul li.menu0 a:hover {
-  background-color: #bbb;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu1 a:hover {
-  background-color: red;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu2 a:hover {
-  background-color: green;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu3 a:hover {
-  background-color: blue;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu4 a:hover {
-  background-color: orange;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu5 a:hover {
-  background-color: purple;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu6 a:hover {
-  background-color: brown;
+  background-color: #329fd7;
   color: #fff;
 }
 #sort-nav ul li.menu7 a:hover {
-  background-color: grey;
+  background-color: #329fd7;
   color: #fff;
 }
 .sticky #sort-nav {
