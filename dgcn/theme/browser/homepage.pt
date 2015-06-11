@@ -141,11 +141,13 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
-  <h2 class="box-title" tal:content="tile/Title">Title</h2>
+  <a href="#"
+   tal:attributes="href tile/absolute_url">
+  <h2 class="box-title" tal:content="tile/Title">Title</h2></a>
   <div class="box-info" tal:content="tile/Description">Text</div>
 </div>
 
@@ -154,7 +156,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -167,7 +169,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -180,7 +182,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -193,7 +195,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -206,7 +208,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -219,7 +221,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -232,7 +234,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -245,7 +247,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -258,7 +260,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -271,7 +273,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -284,7 +286,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -297,7 +299,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -310,7 +312,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -323,7 +325,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -336,7 +338,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -349,7 +351,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -362,7 +364,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -375,7 +377,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -388,7 +390,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -401,7 +403,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -414,7 +416,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -427,7 +429,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -440,7 +442,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -453,7 +455,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -466,7 +468,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -479,7 +481,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -492,7 +494,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -505,7 +507,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
@@ -518,7 +520,7 @@ $(document).ready(function(){
   <a href="#"
    tal:attributes="href tile/absolute_url">
   <img src="#" alt=""
-   tal:attributes="src string:${tile/absolute_url}/@@download/image;
+   tal:attributes="src string:${tile/absolute_url}/@@images/image/preview;
                    alt string: ;
                    width string:400" /></a>
   <div class="box-date"><tal:year content="tile/year">Year</tal:year></div>
