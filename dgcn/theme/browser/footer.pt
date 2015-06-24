@@ -1,0 +1,12 @@
+<div id="portal-footer"
+ i18n:domain="dgcn.theme">
+  <p>
+    <span i18n:translate="description_copyright" tal:omit-tag="">
+    Copyright
+    <abbr title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</abbr>
+    <span i18n:name="gis-rchss" tal:omit-tag="">
+    <a href="http://gis.rchss.sinica.edu.tw/" i18n:translate="label_gis-rchss">Center for GIS, RCHSS, Academia Sinica</a></span>
+    2014-<tal:year i18n:name="current_year" tal:content="view/year" />
+    </span>
+  </p>
+</div>
