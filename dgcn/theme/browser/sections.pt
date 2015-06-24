@@ -1,5 +1,6 @@
 <tal:sections i18n:domain="dgcn.theme"
- tal:define="root context/@@plone_portal_state/navigation_root_url">
+ tal:define="root context/@@plone_portal_state/navigation_root_url;
+             lang context/@@plone_portal_state/language">
 <p class="hiddenStructure" i18n:translate="heading_sections">Navigation</p>
 <div class="top-banner">
  <nav class="">
@@ -14,13 +15,21 @@
   <ul>
    <li>
     <a href="#"
-     tal:attributes="href string:${root}/photos">
+     tal:attributes="href string:${root}/photos"
+     i18n:translate="home_photos">
      Photos</a>
    </li>
    <li>
     <a href="#"
-     tal:attributes="href string:${root}/@@map-view">
+     tal:attributes="href string:${root}/@@map-view"
+     i18n:translate="home_map">
      Map</a>
+   </li>
+   <li>
+    <a href="#"
+     tal:attributes="href string:${root}/about-${lang}"
+     i18n:translate="home_about">
+     About Project</a>
    </li>
   </ul>
  </nav>
