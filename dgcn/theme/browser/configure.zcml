@@ -24,6 +24,7 @@
     name="homepage"
     class=".view.HomePage"
     template="homepage.pt"
-    permission="zope2.View" />
+    permission="zope2.View"
+    allowed_interface="dgcn.theme.interfaces.ICustomTheme" />
 
 </configure>

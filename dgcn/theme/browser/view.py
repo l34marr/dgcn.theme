@@ -1,6 +1,4 @@
 from zope.interface import implements
-from zope.component import getMultiAdapter
-from Acquisition import aq_inner
 
 from Products.CMFCore.utils import getToolByName
 from Products.Five.browser import BrowserView
@@ -11,89 +9,78 @@ from dgcn.theme.interfaces import ICustomTheme
 class HomePage(BrowserView):
 
     implements(ICustomTheme)
+    # TODO: Hard-coded Catalog Path Setting Might Need Refactoring.
 
-    def getDress(self):
+    def getDress(self, lang='en', limit=9):
         """Get Photos on Dress
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         return catalog(portal_type='Photo',
                        Subject=('dress'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='descending',
-                       sort_limit=9)[:9]
+                       sort_limit=limit)[:limit]
 
-    def getBuilding(self):
+    def getBuilding(self, lang='en', limit=9):
         """Get Photos on Building
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         return catalog(portal_type='Photo',
                        Subject=('building'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='descending',
-                       sort_limit=9)[:9]
+                       sort_limit=limit)[:limit]
 
-    def getClothes(self):
+    def getClothes(self, lang='en', limit=9):
         """Get Photos on Clothes
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         return catalog(portal_type='Photo',
                        Subject=('clothes'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='descending',
-                       sort_limit=9)[:9]
+                       sort_limit=limit)[:limit]
 
-    def getShip(self):
+    def getShip(self, lang='en', limit=9):
         """Get Photos on Ship
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         return catalog(portal_type='Photo',
                        Subject=('ship'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='descending',
-                       sort_limit=9)[:9]
+                       sort_limit=limit)[:limit]
 
-    def getRiver(self):
+    def getRiver(self, lang='en', limit=9):
         """Get Photos on River
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         return catalog(portal_type='Photo',
                        Subject=('river'),
                        review_state='published',
                        path=path,
                        sort_on='getObjPositionInParent',
                        sort_order='descending',
-                       sort_limit=9)[:9]
+                       sort_limit=limit)[:limit]
 
-    def getLighthouse(self):
+    def getLighthouse(self, lang='en'):
         """Get Photos on LightHouse
         """
-        context = aq_inner(self.context)
-        catalog = getToolByName(context, 'portal_catalog')
-        portal_state = getMultiAdapter((context, self.request), name='plone_portal_state')
-        path = portal_state.navigation_root_path() + '/photos'
+        catalog = getToolByName(self.context, 'portal_catalog')
+        path = '/dgcn/' + lang + '/photos'
         brain = catalog(portal_type='Photo',
                         Subject=('lighthouse'),
                         review_state='published',
