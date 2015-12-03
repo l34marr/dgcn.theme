@@ -27,7 +27,7 @@
    </li>
    <li>
     <a href="#"
-     tal:attributes="href string:${root}/about-${lang}"
+     tal:attributes="href string:${root}/about"
      i18n:translate="home_about">
      About Project</a>
    </li>
