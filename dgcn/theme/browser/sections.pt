@@ -21,7 +21,7 @@
    </li>
    <li>
     <a href="#"
-     tal:attributes="href string:${root}/@@map-view"
+     tal:attributes="href string:/dgcn/@@map-view"
      i18n:translate="home_map">
      Map</a>
    </li>
